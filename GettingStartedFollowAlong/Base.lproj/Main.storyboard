@@ -27,23 +27,25 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter Meal Name" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LdI-Wc-qSH">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter Your Name:" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LdI-Wc-qSH">
                                         <rect key="frame" x="0.0" y="64.5" width="374" height="30"/>
                                         <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ag-tv-Qpd">
-                                        <rect key="frame" x="0.0" y="102.5" width="374" height="30"/>
-                                        <state key="normal" title="Button"/>
-                                    </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Name Here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cNC-nr-3Bc" userLabel="NameEntry">
+                                        <rect key="frame" x="0.0" y="102.5" width="354" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="aLY-V0-n7j" firstAttribute="leading" secondItem="n6K-li-zEe" secondAttribute="leading" id="4bt-Kf-D6p"/>
                                     <constraint firstAttribute="trailing" secondItem="LdI-Wc-qSH" secondAttribute="trailing" id="Bsj-d5-HOf"/>
                                     <constraint firstAttribute="trailing" secondItem="aLY-V0-n7j" secondAttribute="trailing" id="HEA-MH-LxL"/>
-                                    <constraint firstItem="4ag-tv-Qpd" firstAttribute="trailing" secondItem="LdI-Wc-qSH" secondAttribute="trailing" id="JWK-aV-oVz"/>
                                     <constraint firstItem="LdI-Wc-qSH" firstAttribute="leading" secondItem="n6K-li-zEe" secondAttribute="leading" id="LNy-kK-d0l"/>
+                                    <constraint firstAttribute="trailing" secondItem="cNC-nr-3Bc" secondAttribute="trailing" constant="20" symbolic="YES" id="fgr-fF-R92"/>
                                     <constraint firstItem="aLY-V0-n7j" firstAttribute="top" secondItem="n6K-li-zEe" secondAttribute="top" id="p2N-eO-dWW"/>
                                 </constraints>
                             </stackView>
